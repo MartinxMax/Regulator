@@ -28,38 +28,40 @@
 ![图片名称](./PT/help.png)  
 
 ## Demo
-[ps]The project document drawing v2.0.0 will use Bluetooth communication protocol, and the serial port will be used for testing this time
-
-![图片名称](./PT/schematic_diagram.png)  
+Bluetooth wireless remote control
+![图片名称](./PT/p.png)  
 
 1.Burn hex file to 51 single-chip ne
 
 ![图片名称](./PT/Download.png)  
 
-2.Configuration circuit
+![图片名称](./PT/conf.jpg)  
 
-![图片名称](./PT/Config.png)  
+2.Connect Bluetooth
+![图片名称](./PT/Download.png)  
 
-3.Operation monitoring program
 
 _You can use the - b parameter to set the baud rate, which is 9600 by default_
- ```#python3 Regulator.py -c COM13```
+ 
+```#python3 Regulator.py -c COM4```
 
-![图片名称](./PT/Run.png)  
+![图片名称](./PT/BlueTooth.png)  
 
-4.After the human body is seated, it will automatically enter the combat readiness state
+4.Wait for the IC card to intervene, and the remote command will be executed
 
-![图片名称](./PT/run1.jpg)  
+![图片名称](./PT/all.jpg)  
 
-5.Auto lock screen
+![图片名称](./PT/put1.jpg)  
 
-![图片名称](./PT/run2.jpg)  
+![图片名称](./PT/puttun1.jpg)  
 
-6.results of enforcement
+5.Specify the lock screen command be
 
-![图片名称](./PT/result2.jpg)  
-![图片名称](./PT/result3.png)  
+![图片名称](./PT/resu.png)  
 
+![图片名称](./PT/BlueCMD.png)  
+
+ 
 ## You can not only lock the screen, but also specify commands
 
    ```#python3 Regulator.py -c xxx -cmd "xxxx"```

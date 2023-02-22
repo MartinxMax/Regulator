@@ -1,8 +1,6 @@
 # @Мартин.
 import serial,argparse,textwrap,sys,os,datetime
-
 Version = "@Мартин. Regulator V1.0.0"
-
 Title='''
 ************************************************************************************
 <注释>:本工具提供自动锁屏服务功能
@@ -85,7 +83,6 @@ def main():
     parser.add_argument('-c', '--COM', default=None, help='COM Port')
     parser.add_argument('-b', '--Baud', type=int, default=9600, help='Baud rate')
     parser.add_argument('-cmd', '--CMD', default="RunDll32.exe user32.dll,LockWorkStation", help='CMD')
-    
     Main(parser.parse_args()).run()
 
 
