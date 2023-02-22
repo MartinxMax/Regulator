@@ -1,7 +1,7 @@
 <div align="center">
  <img src="https://readme-typing-svg.herokuapp.com/?lines=Shell+command+execution+using+51+single-chip+microcomputer.;---@Мартин.&font=Roboto" />
  <p align="center">
- <img title="Regulator" src='https://img.shields.io/badge/Regulator-1.0.0-brightgreen.svg' />
+ <img title="Regulator" src='https://img.shields.io/badge/Regulator-2.0.0-brightgreen.svg' />
  <img title="Regulator" src='https://img.shields.io/badge/Hawrdware-Tool'/>
  <img title="Regulator" src='https://img.shields.io/badge/Python-3.9-yellow.svg' />
   <img title="Regulator" src='https://img.shields.io/badge/HackerTool-x' />
