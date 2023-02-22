@@ -1,6 +1,6 @@
 # @Мартин.
 import serial,argparse,textwrap,sys,os,datetime
-Version = "@Мартин. Regulator V1.0.0"
+Version = "@Мартин. Regulator V2.0.0"
 Title='''
 ************************************************************************************
 <注释>:本工具提供自动锁屏服务功能
